@@ -1,0 +1,284 @@
+body > header{
+    padding-top: 15px
+}
+.ecomerce_menu_one > div:first-child em{
+    color: gray
+}
+.ecomerce_menu_one > div:first-child a{
+    color: red
+}
+.ecomerce_menu_one > div:nth-child(2) ul{
+    padding: 0px;
+    list-style: none
+}
+.ecomerce_menu_one > div:nth-child(2) ul li{
+    display: inline-block;
+    min-width: 100px;
+    text-align: center;
+    border-right: #c3c3c3 1px solid
+}
+.ecomerce_menu_one > div:nth-child(2) ul li a{
+    color: gray
+}
+.ecomerce_menu_two{
+    background-image: linear-gradient(to bottom,#4a4a4a,#a0a0a0);
+    min-height: 50px;
+    border-radius: 5px
+}
+.ecomerce_menu_two > div:first-child{
+    padding: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin: 0px
+}
+.ecomerce_menu_two > div:first-child ul{
+    list-style: none;
+    padding: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin: 0px;
+}
+.ecomerce_menu_two > div:first-child ul li{
+    display: inline-block;
+    min-width: 100px;
+    text-align: center;
+    height: 100%;
+    margin: 0px;
+    padding-top: 13px;
+    border-right: #2e2e2e 1px solid;
+}
+.ecomerce_menu_two > div:first-child ul li a{
+    color: white;
+    font-weight: bold
+}
+.ecomerce_menu_two > div:first-child ul li:first-child{
+    background-color: red;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px
+}
+.ecomerce_menu_two > div:nth-child(2) input{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: #a0a0a0 1px solid;
+    padding: 5px;
+}
+.body_index{
+    margin-top: 20px
+}
+.body_index > nav >  div{
+    background-color: red;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-left: 5px;
+    border-radius: 2px
+}
+.body_index > nav ul{
+    list-style: none;
+    border: #a0a0a0 1px solid;
+    border-top: none;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+.body_index > nav ul li{
+    color: gray;
+    width: 100%;
+    min-height: 38px;
+    border-bottom: #a0a0a0 1px solid;
+    padding-top: 5px;
+    cursor: pointer
+}
+.body_index > nav > ul > li > ul{
+    display: none
+}
+.body_index > nav > ul > li > ul{
+    border: none;
+    border-left: red 2px solid
+}
+.body_index > nav > ul > li > ul li{
+    border: none
+}
+.body_index > nav ul li:last-child{
+    border-bottom: none
+}
+.body_index > section > div{
+    border: #a0a0a0 1px solid;
+    min-height: 498px;
+}
+.body_index > section > div > div{
+    height: 100%;
+    padding-top: 50px
+}
+.body_index > section > div > div > div{
+    height: 100%
+}
+.body_index > section > div > div > div:first-child > p:first-child{
+    color: red;
+    font-size: 30px;
+    font-weight: bold
+}
+.body_index > section > div > div > div:first-child > h2{
+    color: red;
+    font-weight: bold;
+    font-size: 70px;
+    text-decoration: underline
+}
+.body_index > section > div > div > div:first-child input{
+    width: 150px;
+    font-weight: bold
+}
+.body_index > section > div > div > div:last-child img{
+    width: 100%;
+    height: 100%
+}
+.lst_article_item_header> div:first-child strong{
+    text-decoration: underline
+}
+.lst_article_item_header > div:last-child {
+    text-align: right
+}
+.lst_article_item_header{
+    border: #a0a0a0 1px solid;
+    height: 38px;
+    padding-top: 8px
+}
+.lst_article_item{
+    margin-top: 10px;
+}
+.lst_article_item > div{
+    border: #a0a0a0 3px solid;
+    border-radius: 4px;
+    height: 270px;
+    margin: 2px;
+    width: 300px;
+    display: inline-block;
+}
+.lst_article_item > div img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    margin-top: 20px
+}
+.lst_article_item > div h2{
+    color: skyblue;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold
+}
+.lst_article_item > div > div{
+    width: 100%;
+    height: 45px;
+    margin: 0px;
+}
+.lst_article_item > div > div > div:first-child{
+    border-top: #f57d7d 2px solid;
+    margin-left: 15px
+}
+.lst_article_item > div > div > div:first-child em{
+    color: gray;
+    margin-top: 5px;
+    display: block;
+    font-weight: bold
+}
+.lst_article_item> div > div > div:last-child input{
+    border-top-left-radius: 0px
+}
+.lst_article_item_header > div:last-child img{
+    width: 20px;
+    height: 20px
+}
+.ecomerce_menu_one > div:nth-child(2) > img,
+.ecomerce_menu_two > div:first-child > img
+{
+    height: 38px;
+    width: 38px;
+    display: none;
+}
+.ecomerce_menu_two > div:first-child > img{
+    position: absolute;
+    right: 0;
+    margin-top: 7px;
+    margin-right: 4px
+}
+.body_index > nav > div >  img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    margin: 0px;
+    display: none;
+    top: 4px
+}
+.body_index > nav ul li img{
+    width: 15px;
+    height: 15px
+}
+.ecomerce_menu_two > div:first-child ul li{
+        height: 50px
+}
+.social_media img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+    margin-left: 5px
+}
+@media(max-width: 500px){
+    .ecomerce_menu_one > div:nth-child(2) > ul{
+        display: none
+    }
+    .ecomerce_menu_one > div:nth-child(2) > ul > li{
+        display: block;
+        text-align: left;
+        border-bottom: red 1px solid
+    }
+    .ecomerce_menu_one > div:nth-child(2) > img,
+    .ecomerce_menu_two > div:first-child > img
+    {
+        display: block
+    }
+    .ecomerce_menu_two > div:first-child > ul > li + li{
+        display: none;
+    }
+    .ecomerce_menu_two > div:first-child > ul > li + li a{
+        border-bottom: red 4px solid
+    }
+    .ecomerce_menu_two > div:nth-child(2) input{
+        margin-bottom: 5px;
+        height: 48px
+    }
+    .ecomerce_menu_two > div:first-child ul{
+        margin: 0px
+    }
+    .body_index > nav > ul{
+        display: none
+    }
+    .lst_article > div{
+        padding: 0px
+    }
+    .lst_article_item_header{
+        margin-top: 20px
+    }
+    .lst_article_item_header > div{
+        padding: 0px
+    }
+    .lst_article_item > div{
+        margin: 0px;
+        margin: auto;
+        margin-bottom: 20px
+    }
+    .body_index > nav > div >  img{
+        display: block
+    }
+    .ecomerce_menu_two > div:first-child ul li:first-child{
+        width: 100%;
+        text-align: left;
+        padding-left: 5px
+    }
+    
+}
